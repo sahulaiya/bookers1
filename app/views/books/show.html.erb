@@ -1,0 +1,23 @@
+<body>
+  
+ <div class="notice"><%= flash[:alert]%></div>
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @book.body %>
+</p>
+
+<%= link_to "edit", edit_book_path(@book) %>
+<a class="back" href="/books">Back</a>
+
+
+
+</body><div class="notranslate" style="position: absolute; top: 0; right:0;" id="vd-root-d19608294"></div>
+</html>
